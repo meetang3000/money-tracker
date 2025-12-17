@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "money-tracker",
+    "slug": "money-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+  "adaptiveIcon": {
+    "foregroundImage": "./assets/icon.png",
+    "backgroundColor": "#ffffff"
+  }
+}
+
+      "package": "com.miiw.moneytracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "aebf72ca-a8c5-4a98-be04-06ba80a19b5d"
+      }
+    }
+  }
+}
