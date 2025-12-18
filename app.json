@@ -1,18 +1,20 @@
 {
   "expo": {
-    "name": "MoneyTrackerV2",
+    "name": "Money Tracker",
     "slug": "money-tracker",
     "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "android": {
-      "package": "com.miiw.moneytrackerv2",
+      "package": "com.miiw.moneytracker.v2",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       }
     },
-    "plugins": ["expo-router"],
+    "plugins": [
+      "expo-router"
+    ],
     "extra": {
       "eas": {
         "projectId": "aebf72ca-a8c5-4a98-be04-06ba80a19b5d"
