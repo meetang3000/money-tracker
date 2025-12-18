@@ -1,7 +1,7 @@
 {
   "name": "money-tracker",
   "main": "expo-router/entry",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "scripts": {
     "start": "expo start",
     "android": "expo run:android",
@@ -18,7 +18,6 @@
     "expo-asset": "~11.0.1",
     "expo-image": "~2.0.4",
     "expo-haptics": "~14.0.1",
-    "expo-symbols": "~0.2.2",
     "expo-constants": "~17.0.3",
     "expo-font": "~13.0.3",
     "expo-linking": "~7.0.4",
