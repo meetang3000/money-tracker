@@ -3,6 +3,7 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
+      // ต้องอยู่บรรทัดสุดท้ายเสมอ
       'react-native-reanimated/plugin',
     ],
   };
