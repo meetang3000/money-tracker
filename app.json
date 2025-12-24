@@ -1,16 +1,25 @@
 {
   "expo": {
-    "name": "Money Tracker",
+    "name": "MT Final",
     "slug": "money-tracker",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
     "android": {
-      "package": "com.miiw.moneytracker.v2",
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.miiw.mt.checkfinal"
     },
     "plugins": [
       "expo-router"
